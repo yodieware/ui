@@ -170,7 +170,7 @@ local library = (function()
 
 			game:GetService("StarterGui"):SetCore("SendNotification", {
 				Title="Minimized",
-				Text="KeyBind : LeftAlt",
+				Text="KeyBind : Right Shift",
 				Duration=1
 			})
 		end)
@@ -238,7 +238,7 @@ local library = (function()
 			end
 
             UserInputService.InputBegan:Connect(function (input)
-                if input.KeyCode == Enum.KeyCode.LeftAlt then
+                if input.KeyCode == Enum.KeyCode.RightShift then
                     if openned then
 						window:Hide()
 					else
